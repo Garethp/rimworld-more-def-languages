@@ -6,8 +6,16 @@
         <li>1.5</li>
     </supportedVersions>
     <packageId>Garethp.MoreDefLanguages</packageId>
-    <description>Please do not use this, this mod is a sin against man</description>
+    <description>Please do not use this, this mod is a sin against Ludeon</description>
 
+    <modDependencies>
+        <li>
+            <packageId>brrainz.harmony</packageId>
+            <displayName>Harmony</displayName>
+            <steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+        </li>
+    </modDependencies>
+    
     <loadAfter>
         <li>Ludeon.RimWorld</li>
     </loadAfter>

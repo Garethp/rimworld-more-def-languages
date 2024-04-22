@@ -15,7 +15,7 @@ public class XmlAssetsInModFolderLoader
     {
         List<string> modFoldersToLoad = foldersToLoadDebug ?? mod.foldersToLoadDescendingOrder;
         Dictionary<string, FileInfo> dictionary = new Dictionary<string, FileInfo>();
-
+        
         modFoldersToLoad.ForEach(modPath =>
         {
             var defsFolder = new DirectoryInfo(Path.Combine(modPath, folderPath));
