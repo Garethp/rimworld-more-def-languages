@@ -1,0 +1,2 @@
+DefType,Attr::Parent,defName,label,description,drawerType,graphicData/texPath,graphicData/graphicClass,graphicData/drawSize,graphicData/shadowData/volume,tags/li[0],tags/li[1],comps/li[0]/Attr::Class,comps/li[0]/CompProperty
+ThingDef,Base,ShuttleCasket,Shuttle Casket,A place to put the dead and send them into the vastness of the ocean.,MapMeshAndRealTime,Things/Shuttle/shuttle_personal,SINGLE,"(2,2)","(0.75, 0.35, 0.33)",tag 1,tag 2,CompClass,SomeValue

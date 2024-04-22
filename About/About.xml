@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+    <name>Vanilla Abominations: More Def Languages</name>
+    <author>Garethp</author>
+    <supportedVersions>
+        <li>1.5</li>
+    </supportedVersions>
+    <packageId>Garethp.MoreDefLanguages</packageId>
+    <description>Please do not use this, this mod is a sin against man</description>
+
+    <loadAfter>
+        <li>Ludeon.RimWorld</li>
+    </loadAfter>
+</ModMetaData>

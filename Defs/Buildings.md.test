@@ -1,0 +1,18 @@
+﻿# Defs
+
+## ThingDef[Parent=SomeDef]
+
+* [defName] MyCustomDef
+* [label] A custom def that I built
+* [graphicData]
+    * [texPath] Things/Shuttle/shuttle_personal
+    * [graphicClass] Graphic_Single
+    * [drawSize] (2,2)
+    * [shadowData]
+        * [volume] (0.75, 0.35, 0.33)
+* [tags]
+    * [li] Tag 1
+    * [li] Tag 2
+* [comps]
+  * [li,Class=Something]
+    * [compClass] CompProperties

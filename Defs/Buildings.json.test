@@ -1,0 +1,20 @@
+﻿{
+  "ThingDef": {
+    "defName": "myDef",
+    "label": "MyDef",
+    "comps": [
+      {
+        "Attr::Class": "CompProperties",
+        "SomeKey": "SomeValue"
+      }
+    ]
+  },
+  "ThingDef": {
+    "defName": "myDef2",
+    "label": "MyDef2",
+    "tags": [
+      "tag1",
+      "tag2"
+    ]
+  }
+}
