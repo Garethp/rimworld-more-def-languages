@@ -7,6 +7,6 @@ public class MoreDefLanguages : Mod
 {
     public MoreDefLanguages(ModContentPack content) : base(content)
     {
-    new Harmony("Garethp.MoreDefLanguages.main").PatchAll();
+        new Harmony("Garethp.MoreDefLanguages.main").PatchAll();
     }
 }
