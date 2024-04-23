@@ -8,9 +8,6 @@ This allows you to define your Rimworld Defs in more than just XML. Specifically
 in CSV, JSON and Markdown format. It also exposes a method to add your own `Loader`, allowing you to implement more
 langauges for Defs to be defined in if you really want to.
 
-It also seems to throw an error in Rimworld at startup, but from my testing it appears to work anyway. It's not my fault
-that you enabled this mod, so don't blame me.
-
 ## How does it work?
 
 In [`Source/Patches/XmlAssetsInModFolderLoader.cs`](`Source/Patches/XmlAssetsInModFolderLoader.cs`) we use Harmony to
