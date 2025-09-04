@@ -1,0 +1,13 @@
+ThingDef:
+  - defName: myDef
+    "Attr:SomeAttr": test
+    label: MyDef
+    comps:
+      - "Attr::Class": "CompProperties"
+        SomeKey: SomeValue
+      
+  - defName: myDef2
+    label: MyDef2
+    tags:
+      - tag1
+      - tag2

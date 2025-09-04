@@ -65,6 +65,28 @@ in that object with the format `Attr::Key`. Otherwise it's perfectly ordinary lo
 }
 ```
 
+### Yaml
+
+YAML follow the same structure as JSON, except for the fact that it does not allow multiple `ThingDef` objects in the
+same root. For that reason, your `ThingDefs` can either be a single object or an array of objects. Your file can end
+with either `.yaml` or `.yml`
+
+```yaml
+ThingDef:
+  - defName: myDef
+    "Attr:SomeAttr": test
+    label: MyDef
+    comps:
+      - "Attr::Class": "CompProperties"
+        SomeKey: SomeValue
+      
+  - defName: myDef2
+    label: MyDef2
+    tags:
+      - tag1
+      - tag2
+```
+
 ### Markdown
 
 This is fairly straight forward. We define a top level header (One `#`) with the key `Defs`. Then, we'll have one

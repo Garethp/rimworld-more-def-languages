@@ -9,7 +9,9 @@ public class LoaderStore
     {
         { ".csv", new BetterCSVLoader() },
         { ".json", new JSONLoader() },
-        { ".md", new MarkdownLoader() }
+        { ".md", new MarkdownLoader() },
+        { ".yaml", new YamlLoader() },
+        { ".yml", new YamlLoader() }
     };
 
     public static Dictionary<string, ILoader> Loaders { get; } = _loaders;

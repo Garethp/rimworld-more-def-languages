@@ -4,8 +4,10 @@
     <exclude>.git</exclude>
     <exclude>.idea</exclude>
     <exclude>.run</exclude>
-    <exclude>CSVDefs.sln</exclude>
+    <exclude>Modlist.xml</exclude>
+    <exclude>MoreDefLanguages.sln</exclude>
     <exclude>packages</exclude>
+    <exclude>README.md</exclude>
     <exclude>Source</exclude>
   </Excluded>
 </Configuration>

@@ -46,11 +46,7 @@ public class XmlAssetsInModFolderLoader
             var document = LoaderStore.Loaders[fileInfo.Extension].Parse(fileInfo.FullName);
             if (document == null) return;
 
-            assets.Add(new LoadableXmlAsset(fileInfo.Name, fileInfo.Directory.FullName,
-                document.OuterXml)
-            {
-                mod = mod
-            });
+            assets.Add(new LoadableXmlAsset(fileInfo.Name, document.OuterXml));
         });
 
         __result = assets.ToArray();
