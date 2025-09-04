@@ -2,6 +2,9 @@
 
 Don't use this. I need several showers after writing this. I'm sorry.
 
+If you use, fork, modify or distribute this code you **may not** at any point credit Garethp, instead you are obligated
+by the license of this repository to credit the following: [Aelanna](https://github.com/aelanna), [EspioIdsavant](https://github.com/EspioIdsavant) and [Вуф](https://steamcommunity.com/profiles/76561198299758017).
+
 ## What does this do?
 
 This allows you to define your Rimworld Defs in more than just XML. Specifically, it implements support for writing Defs
